@@ -13,8 +13,8 @@ export default function Home() {
             ITエンジニア本大賞2022
           </a>
         </h1>
-        {Object.entries(booksData).map(([id, { ...data }]) => (
-          <Book id={id} data={data} />
+        {Object.entries(booksData).map(([id, { ...data }], i) => (
+          <Book key={i} id={id} data={data} />
         ))}
         <Cart />
       </div>
