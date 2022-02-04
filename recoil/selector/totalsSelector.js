@@ -4,8 +4,8 @@ import { couponState } from '../atoms/couponState';
 import booksData from '../../data/booksData';
 import couponsData from '../../data/couponsData';
 
-const totalsState = selector({
-  key: 'totalsState',
+const totalsSelector = selector({
+  key: 'totalsSelector',
   get: ({ get }) => {
     const cart = get(cartState);
     const coupon = get(couponState);
@@ -20,4 +20,4 @@ const totalsState = selector({
   },
 });
 
-export default totalsState;
+export default totalsSelector;
