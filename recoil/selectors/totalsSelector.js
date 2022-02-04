@@ -1,6 +1,6 @@
 import { selector } from 'recoil';
-import { cartState } from '../atoms/cartState';
-import { couponState } from '../atoms/couponState';
+import cartState from '../atoms/cartState';
+import couponState from '../atoms/couponState';
 import booksData from '../../data/booksData';
 import couponsData from '../../data/couponsData';
 

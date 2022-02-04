@@ -1,5 +1,5 @@
 import { useRecoilState } from 'recoil';
-import { cartState } from '../recoil/atoms/cartState';
+import cartState from '../recoil/atoms/cartState';
 const Book = ({ id, data }) => {
   const [cart, setCart] = useRecoilState(cartState);
   const addBookHandler = (id) => {

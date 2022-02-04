@@ -5,4 +5,4 @@ const cartState = atom({
   default: {},
 });
 
-export { cartState };
+export default cartState;

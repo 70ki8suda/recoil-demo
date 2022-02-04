@@ -3,7 +3,7 @@ import { useRecoilValue } from 'recoil';
 import Coupon from '../components/Coupon';
 import Totals from '../components/Totals';
 
-import { cartState } from '../recoil/atoms/cartState';
+import cartState from '../recoil/atoms/cartState';
 import booksData from '../data/booksData';
 
 const Cart = ({ data }) => {

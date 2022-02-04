@@ -1,5 +1,5 @@
 import { useRecoilState } from 'recoil';
-import { couponState } from '../recoil/atoms/couponState';
+import couponState from '../recoil/atoms/couponState';
 
 import couponsData from '../data/couponsData';
 

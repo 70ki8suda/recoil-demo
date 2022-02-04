@@ -5,4 +5,4 @@ const couponState = atom({
   default: 0,
 });
 
-export { couponState };
+export default couponState;

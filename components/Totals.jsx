@@ -1,5 +1,5 @@
 import { useRecoilValue } from 'recoil';
-import totalsSelector from '../recoil/selector/totalsSelector';
+import totalsSelector from '../recoil/selectors/totalsSelector';
 
 const Totals = () => {
   const totals = useRecoilValue(totalsSelector);
